@@ -80,12 +80,41 @@ body{
 	grid-template-rows: 3fr 4fr;
 	margin-left: 1em;
 	width:100%;
+
 	
 }
 #container>h1{
 	grid-column-start: 1;
+
 }
 #container>h2{
 	grid-column-start: 2;
 	grid-row-start: 1;
+	margin-left: 10%;
+}
+#container>h3{
+	grid-column-start: 2;
+	grid-row-start: 1;	
+	margin-top: 7em;
+	margin-left: 10%;
+}
+
+#game{
+
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(3,1fr);
+	margin-top: 1%;
+	height: 13em;
+	width: 90%;
+	background-color: transparent;
+	border:none;
+	cursor: pointer;
+	margin-left: 10%;
+}
+#cake{
+	width: 20%;
 }
