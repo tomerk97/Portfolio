@@ -27,12 +27,13 @@ body{
 	margin:30px 140px;
 	border:1px solid black;
 	background-image: url("glasses.png");
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: white;
+	background-position: bottom left;
 	box-shadow: 0px 21px 20px 4px black;
 	height: 32em;
-	
+	width: 80%;
 }
 #navigator{
 	display: block;
@@ -91,6 +92,7 @@ body{
 	display: grid;
 	grid-template-columns: 3fr 4fr;
 	grid-template-rows: repeat(auto,1fr);
+	width: 100%;
 }
 #projects{
 	margin-top: 2em;
