@@ -109,6 +109,8 @@ body{
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 1.5s;
+	margin-bottom: 1em;
+	margin-left: 2em;
 
 }
 .projectlogo{
