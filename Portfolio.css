@@ -5,30 +5,41 @@ html{
 	cursor: default;
 	background-color: rgb(70,70,70);
 	background-attachment: fixed;
-	
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-left: 5%;
+
 }
+
 body{
-	margin:1.88em 8.75em;
+	
 	border:1px solid black;
+	box-shadow: 0px 21px 20px 4px black;
+	height: 32em;
 	background-image: url("glasses.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: white;
 	background-position: bottom left;
-	box-shadow: 0px 21px 20px 4px black;
-	height: 32em;
 }
 #navigator{
-	display: block;
-	height: 50px;
+	
+	display: flex;
 	margin-top: -1px;
 	top: 0;
 	z-index: 2;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color:rgba(0,0,0,1);
+	justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 
-
+}
+#navigator>span{
+	
+		align-self: center;
 }
 .navbtn{
 	display: inline;
@@ -48,8 +59,7 @@ body{
  
  #nameimg{
  	float: left;
- 	height: 35px;
- 	margin-top:0.6em;	
+ 	height: 35px;	
  	margin-right: 3em;
  }
  
@@ -114,10 +124,7 @@ body{
 	width:100%;
 }
 
-#details{
-	grid-column-start: 2;
-	grid-row-start: 1;
-}
+
 
 #detailsimgs{
 	margin-top: 1.8em;
@@ -141,7 +148,7 @@ body{
 
 }
 
-#deatilspar{
+#detailspar{
 	grid-column-start: 3;
 	animation-name: fadeInOpacity;
 	animation-timing-function: ease-in;
@@ -149,11 +156,14 @@ body{
 	margin-left: 2em;
 	margin-top: 1.2em;
 }
+*>p{
+	overflow-x: hidden;
+}
 
 #projbtn{
 	grid-column-start: 3;
 	grid-row-start: 2;
-	margin-top: 5em;
+	align-self: center;
 	animation-name: fadeInOpacitytwo;
 	animation-timing-function: ease-in;
 	animation-duration: 2.5s;
