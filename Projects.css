@@ -123,11 +123,10 @@ body{
 	display: flex;
 	flex-direction: column;
 	overflow-x: hidden;
+	height: 25em;
 
 }
-#firstproject{
-	margin-top: 2em;
-}
+
 
 .projectwindow{
 	display: grid;
@@ -165,4 +164,13 @@ body{
 }
 .projectdescription{
 	margin-left: 1em;
+}
+
+
+#timezone img.projectlogo{
+	justify-self:center; 
+}
+
+#timezone img.sitepic{
+	margin-left: 0.3em;
 }

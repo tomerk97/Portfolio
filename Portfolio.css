@@ -179,8 +179,9 @@ a>button{
 	box-shadow: 1px 8px 12px 1px gray;
 	cursor: pointer;
 }
-a:hover{
-	transform: scale(1.2);
+a button:hover{
+	color:black;
+	transform: scale(1.1);
 }
 a>hr{
 	width: 9.2em;
@@ -191,3 +192,6 @@ a>hr{
 	box-shadow: 1px 8px 12px 1px gray;
 }
 
+*:active{
+	outline: none;
+}
